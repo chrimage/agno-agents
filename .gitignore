@@ -1,1 +1,32 @@
 .env
+.aider*
+
+# Database files
+*.db
+*.sqlite
+
+# Python build artifacts
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Lock files (can be regenerated)
+uv.lock
+
+# Log files
+*.log
+
+# Cache files
+*cache*.sqlite
+
+# Configuration files with secrets
+**/config.yaml
+**/config.yml
